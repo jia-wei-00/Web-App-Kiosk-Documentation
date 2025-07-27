@@ -5,7 +5,7 @@
 *   **Link:** [**https://web-app-kiosk.vercel.app/**](https://web-app-kiosk.vercel.app/)
     
 
-3\. UI/UX Design Challenge:
+2\. UI/UX Design Challenge:
 ---------------------------
 
 *   **Figma:** [https://www.figma.com/design/HBOjfF5cLErqUQNYDpRlTk/Untitled?node-id=0-1&t=JOwQXc3viskaetGJ-1](https://www.figma.com/design/HBOjfF5cLErqUQNYDpRlTk/Untitled?node-id=0-1&t=JOwQXc3viskaetGJ-1)
