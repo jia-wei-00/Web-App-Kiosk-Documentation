@@ -58,17 +58,17 @@ To measure user engagement and the success of the A/B test, we would track the f
 
 A/B Testing Platform
 
-*   **Google Optimize:** This platform allows you to set up experiments, segment users into control and variation groups, serve different versions of your web page, and collect data on how each version performs against your defined metrics. It handles the technical aspects of splitting traffic and tracking.
+*   **Google Optimize:** This platform allows you to set up experiments, segment users into control and variation groups, serve different versions of the web page, and collect data on how each version performs against defined metrics. It handles the technical aspects of splitting traffic and tracking.
     
 
 Web Analytics
 
-*   **Google Analytics 4 (GA4):** Essential for comprehensive data collection. GA4 can track page views, user sessions, engagement events (clicks, scrolls, form submissions), conversion events (e.g., successful form submission), and user demographics. You would configure custom events for the "Book Now" button clicks and form submissions.
+*   **Google Analytics:** Essential for comprehensive data collection. GA4 can track page views, user sessions, engagement events (clicks, scrolls, form submissions), conversion events (e.g., successful form submission), and user demographics. You would configure custom events for the "Book Now" button clicks and form submissions.
     
 
 Tag Management System
 
-*   **Google Tag Manager (GTM):** Used to easily deploy and manage all your tracking tags (GA4 event tags, A/B testing platform scripts) without needing to modify the website's code directly. This streamlines the implementation of tracking for your A/B test.
+*   **Google Tag Manager (GTM):** Used to easily deploy and manage all tracking tags without needing to modify the website's code directly. This streamlines the implementation of tracking for A/B test.
     
 
 4\. Problem-Solving Scenario (Written Response):
@@ -80,7 +80,7 @@ Before optimizing, you need to understand what is causing the slowness.
 
 1.  **Performance Audits with Developer Tools:**
     
-    *   **Google Lighthouse:** This is your primary tool. Run Lighthouse audits (within Chrome Developer Tools or online at PageSpeed Insights) on your web app, specifically on mobile simulations (e.g., set network throttling to "Slow 3G" and CPU throttling to "4x slowdown"). Pay close attention to:
+    *   **Google Lighthouse:** Run Lighthouse audits (within Chrome Developer Tools or online at PageSpeed Insights) on web app, specifically on mobile simulations (e.g., set network throttling to "Slow 3G" and CPU throttling to "4x slowdown"). Pay close attention to:
         
         *   **First Contentful Paint (FCP):** When the first text or image is painted.
             
@@ -94,7 +94,7 @@ Before optimizing, you need to understand what is causing the slowness.
             
     *   **Chrome DevTools (Performance Tab):**
         
-        *   **Record a performance profile:** Simulate a mobile device (responsive design mode) and throttle the network/CPU. Record a load of your app.
+        *   **Record a performance profile:** Simulate a mobile device (responsive design mode) and throttle the network/CPU. Record a load of the app.
             
         *   **Analyze the waterfall:** Look for long-running scripts, large assets, excessive network requests, and blocking resources.
             
@@ -104,7 +104,7 @@ Before optimizing, you need to understand what is causing the slowness.
     
     *   **Network Tab (DevTools):** Observe the size and number of requests. Look for uncompressed assets, large images, and numerous HTTP requests.
         
-    *   **Simulate various network conditions:** Test on different mobile network speeds (2G, 3G, 4G, Wi-Fi) to understand how latency and bandwidth affect performance.
+    *   **Simulate various network conditions:** Test on different mobile network speeds to understand how latency and bandwidth affect performance.
         
 3.  **Real User Monitoring (RUM) Tools:**
     
@@ -164,11 +164,9 @@ B. Server-Side and Network Optimizations
     
     *   **Database Optimization:** Optimize database queries, use appropriate indexing, and consider denormalization for frequently read data.
         
-    *   **Backend Code Optimization:** Review and optimize your server-side code for efficiency.
+    *   **Backend Code Optimization:** Review and optimize server-side code for efficiency.
         
     *   **Load Balancing:** If traffic is high, distribute requests across multiple servers.
-        
-    *   **HTTP/2 or HTTP/3:** Ensure your server supports and uses modern HTTP protocols for multiplexing and faster resource delivery.
         
 
 **III. Continuous Monitoring and Iteration**
@@ -185,7 +183,7 @@ Performance optimization is an ongoing process.
         
 3.  **Monitor RUM Data:**
     
-    *   Continuously monitor your RUM dashboards for any dips in performance or new bottlenecks. Set up alerts for critical performance thresholds.
+    *   Continuously monitor  RUM dashboards for any dips in performance or new bottlenecks. Set up alerts for critical performance thresholds.
         
 4.  **User Feedback:**
     
