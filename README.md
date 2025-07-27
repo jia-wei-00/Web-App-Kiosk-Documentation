@@ -2,7 +2,6 @@
 --------------------------
 
 *   **Repository:** [https://github.com/jia-wei-00/web-app-kiosk](https://github.com/jia-wei-00/web-app-kiosk)
-    
 *   **Link:** [**https://web-app-kiosk.vercel.app/**](https://web-app-kiosk.vercel.app/)
     
 
@@ -178,7 +177,7 @@ Performance optimization is an ongoing process.
 
 1.  **Automated Performance Testing:**
     
-    *   Integrate Lighthouse or other performance tools into your CI/CD pipeline to catch regressions early.
+    *   Integrate Lighthouse or other performance tools into CI/CD pipeline to catch regressions early.
         
 2.  **Regular Audits:**
     
